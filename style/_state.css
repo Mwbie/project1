@@ -1,0 +1,18 @@
+.state-wrapper{
+    background: #ffc412;
+    min-height: 250px;
+    margin-top: 250px;
+}
+.state-wrapper i{
+    font-size: 50px;
+  margin-top: 25px;
+}
+.state-wrapper .count{
+ font-size: 26px;
+ color: #fff;
+ margin: 30px;
+
+}
+.state-wrapper .count-title{
+font-size: 18px;
+}

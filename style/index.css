@@ -1,0 +1,59 @@
+@import url(_contact.css);
+@import url(_nav.css);
+@import url(_header.css);
+@import url(_course.css);
+@import url(_aboutus.css);
+@import url(_teacher.css);
+@import url(_state.css);
+@import url(_topic.css);
+@import url(_faq.css);
+@import url(_fotter.css);
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/yekan-regular.eot);
+    src: url(../fonts/yekan-regular.woff);
+    src: url(../fonts/yekan-regular.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: nastq;
+    src: url(../fonts/IranNastaliq.eot);
+    src: url(../fonts/IranNastaliq.ttf);
+    src: url(../fonts/IranNastaliq.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nastq {
+    font-family: nastq;
+}
+
+.yekan {
+    font-family: yekan;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* //navbar// */

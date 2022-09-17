@@ -1,0 +1,82 @@
+    .faq-wrapper {
+        background: url(../img/city.jpg) no-repeat;
+        min-height: 500px;
+        /* opacity: 0.1; */
+        background-position: center;
+    }
+    
+    .faq-rightside {
+        box-shadow: 1px 5px 15px 2px rgba(68, 102, 247, 0.05);
+     
+        background: #fff;
+        padding: 30px;
+        margin-top: 80px;
+    }
+    .faq-rightside h6{
+        font-size: 16px;
+
+    }
+    .faq-rightside h6 i{
+        font-size: 32px;
+        margin-left: 16px;
+        vertical-align: middle;
+        color: rgb(126, 126, 216);
+    }
+    .faq-rightside p{
+        font-size: 16px;
+    margin: 10px 47px 0 0;
+        color: #b3afaf;
+    }
+    .faq-leftside .tabs{
+border-radius: 5px;
+overflow: hidden;
+box-shadow: 0 4px 4px -2px rgba(68, 102, 247, 0.05);
+/* background: #ffc412 ; */
+}
+.faq-leftside
+{   margin-top: 80px;}
+    .faq-leftside .tab{
+        color: #fff;
+overflow: hidden;
+
+    }
+    .faq-leftside .tab-label{
+        padding: 11px;
+        background:  rgb(126, 126, 216);
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        transition: 0.3s;
+    }
+    .faq-leftside .tab-label:hover{
+        background: rgb(68, 68, 230) ;
+    }
+    .faq-leftside .tab-label::after{
+        content: '\276f';
+        /* width: 16px;
+        height: 16px; */
+        text-align: center;
+        float: left;
+        /* background-color: black; */
+        transition: 0.4s;
+        padding: 2px 0 0 0;
+    }
+    .faq-leftside .tab-content{
+        height: 0;
+        background: rgb(116, 116, 121);
+        transition: .5s ease;
+       
+        font-size: 16px;
+        overflow-y: scroll;
+        /* text-align: center; */
+    }
+    .faq-leftside input:checked ~ .tab-content {
+       height: 100px;
+       padding: 10px;
+    }
+    .faq-leftside input:checked + .tab-label::after{
+        transform: rotate(-90deg);
+    }
+    .faq-leftside input{
+        display: none;
+    }
